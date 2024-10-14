@@ -99,5 +99,5 @@ systemctl daemon-reload
 systemctl start kubelet
 systemctl enable kubelet.service
 
-kubeadm join 172.31.12.38:6443 --token yl6fd0.3qj59qlddw2jjkho \
+#kubeadm join 172.31.12.38:6443 --token yl6fd0.3qj59qlddw2jjkho \
         --discovery-token-ca-cert-hash sha256:011b82063080aa4005ca98ed9fd040623ba36ae6bfd567d4a74e4b728696af73
