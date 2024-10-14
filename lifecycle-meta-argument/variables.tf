@@ -13,7 +13,7 @@ variable "enviro-instance-type" {
 
 variable "my_key" {
   type    = string
-  default = "class35pub"
+  default = "class35"
 }
 
 
