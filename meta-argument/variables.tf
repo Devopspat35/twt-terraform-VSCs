@@ -15,7 +15,7 @@ variable "my_name" {
 
 variable "my_key" {
   type    = string
-  default = "class35pub"
+  default = "class35"
 }
 
 variable "my_region" {
