@@ -4,7 +4,7 @@ sudo hostnamectl set-hostname ans
 # Create a new user and configure for Ansible
 sudo useradd -m -s /bin/bash ansible
 sudo passwd ansible <<EOF
-foncha
+fon@123
 EOF
 # Allow the new user to use sudo without a password (optional)
 echo 'ansible ALL=(ALL) NOPASSWD: ALL' | sudo tee /etc/sudoers.d/ansible
