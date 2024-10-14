@@ -2,7 +2,7 @@ provider "aws" {}
 
 data "aws_ami" "redhat_ami" {
   most_recent = true
-  owners      = ["309956199498"]
+  owners      = ["amazon"]
 
   filter {
     name   = "name"
